@@ -1,0 +1,112 @@
+[
+  {
+    "id": 9,
+    "name": "AI Writing Assistant",
+    "description": "Generate blog posts, emails, and social media content instantly with AI.",
+    "price": 24.99,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["Content suggestions", "Grammar correction", "SEO optimization"],
+    "icon": "🤖"
+  },
+  {
+    "id": 10,
+    "name": "Smart Home Controller",
+    "description": "Control all your smart devices from one central hub with automation.",
+    "price": 129.99,
+    "period": "one-time",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": ["Voice control", "Energy monitoring", "Device scheduling"],
+    "icon": "🏠"
+  },
+  {
+    "id": 11,
+    "name": "Virtual Fitness Coach",
+    "description": "Get AI-powered workout plans and real-time posture correction.",
+    "price": 29.99,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["AI workouts", "Posture tracking", "Goal setting"],
+    "icon": "🏋️‍♂️"
+  },
+  {
+    "id": 12,
+    "name": "Stock Market Simulator",
+    "description": "Practice trading with real-time market data without risking money.",
+    "price": 14.99,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["Real-time data", "Portfolio tracking", "Trading challenges"],
+    "icon": "📈"
+  },
+  {
+    "id": 13,
+    "name": "Premium Photo Presets",
+    "description": "Enhance your photos instantly with professional Lightroom presets.",
+    "price": 39.99,
+    "period": "one-time",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["50+ presets", "Color grading", "Batch editing"],
+    "icon": "📷"
+  },
+  {
+    "id": 14,
+    "name": "Language Tutor Live",
+    "description": "Connect with certified tutors for live language lessons online.",
+    "price": 19.99,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": ["1-on-1 tutoring", "Homework help", "Interactive exercises"],
+    "icon": "📝"
+  },
+  {
+    "id": 15,
+    "name": "Mind Mapping Software",
+    "description": "Visualize ideas, projects, and workflows with an intuitive interface.",
+    "price": 49.99,
+    "period": "one-time",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["Drag & drop interface", "Collaboration tools", "Export options"],
+    "icon": "🧠"
+  },
+  {
+    "id": 16,
+    "name": "Music Streaming Premium",
+    "description": "Unlimited access to high-quality music, curated playlists, and podcasts.",
+    "price": 9.99,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["Offline listening", "Ad-free", "High-quality audio"],
+    "icon": "🎵"
+  },
+  {
+    "id": 17,
+    "name": "3D Modeling Suite",
+    "description": "Create professional 3D models and animations for games and films.",
+    "price": 149.99,
+    "period": "one-time",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": ["Sculpting tools", "Animation toolkit", "Export to multiple formats"],
+    "icon": "🖌️"
+  },
+  {
+    "id": 18,
+    "name": "Digital Marketing Toolkit",
+    "description": "All-in-one platform for SEO, email campaigns, and social media analytics.",
+    "price": 59.99,
+    "period": "yearly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["SEO audit", "Email marketing", "Social media tracking"],
+    "icon": "📣"
+  }
+]
