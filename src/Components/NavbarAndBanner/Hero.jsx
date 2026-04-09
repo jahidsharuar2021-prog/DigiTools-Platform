@@ -14,7 +14,7 @@ const Hero = () => {
             <button className="btn btn-outline  rounded-full">
               <img src={rectangle} alt="" /> New: AI-Powered Tools Available
             </button>
-            <h1 className="text-5xl font-bold">
+            <h1 className="text-4xl font-extrabold mt-5">
               Supercharge Your <br /> Digital Workflow
             </h1>
             <p className="py-6">
