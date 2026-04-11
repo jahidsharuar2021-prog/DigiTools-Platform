@@ -2,11 +2,9 @@ import React, { useState } from "react";
 import SelectedCard from "../SelectedCard/SelectedCard";
 import Card from "./card";
 
-const Degitools = ({ AppsData }) => {
+const Degitools = ({ AppsData ,singleCard, setSingleCard}) => {
   const [selectedType, isSelectedType] = useState("Products");
-  const [singleCard,setSingleCard]=useState([]);
-  console.log(singleCard);
-
+  
   return (
     <div>
       <div className="hero bg-base-200 min-h-49 md:pt-[100px]">
@@ -30,7 +28,7 @@ const Degitools = ({ AppsData }) => {
                 onClick={() => isSelectedType("Cart")}
                 className={`btn ${selectedType === "Cart" ? "liner-button text-white" : "btn-ghost"} rounded-full`}
               >
-                Cart (2)
+                Cart({singleCard.length})
               </button>
             </div>
           </div>

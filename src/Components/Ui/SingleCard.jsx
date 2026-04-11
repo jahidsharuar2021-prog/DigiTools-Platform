@@ -1,13 +1,16 @@
 import React, { useState } from 'react';
+import { toast } from 'react-toastify';
 
 const SingleCard = ({ AppData, setSingleCard, singleCard }) => {
   const [isSelected, setSelected] = useState(false);
-  console.log(AppData);
+  
 
   const evenHandler = () => {
     setSelected(true);
-    alert(`${AppData.name} card is selected`);
-    setSingleCard([...singleCard,AppData]);
+    setSingleCard([...singleCard, AppData]);
+   toast(`${AppData.name} card is selected`);
+    
+   
   };
 
   return (

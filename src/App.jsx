@@ -7,6 +7,7 @@ import Cards from "./Components/premiumTools/Cards";
 
 import WorkSection from "./Components/Your Work/WorkSection";
 import Degitools from "./Components/premiumTools/Degitools";
+import { ToastContainer } from "react-toastify";
 
 const fetchData = async () => {
   const res = await fetch("/data.json");
@@ -29,6 +30,9 @@ function App() {
 
       <WorkSection />
       <Footer />
+
+    {/* react toastify alert */}
+      <ToastContainer />
     </>
   );
 }
