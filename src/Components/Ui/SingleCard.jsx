@@ -62,6 +62,7 @@ const SingleCard = ({ AppData, setSingleCard, singleCard }) => {
           <div className="mt-6">
             <button
               onClick={evenHandler}
+              disabled={isSelected}
               className="btn liner-button btn-block text-white"
             >
               {isSelected ? "Purchases" : "Buy Now"}
