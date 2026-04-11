@@ -6,7 +6,6 @@ const Rating = () => {
         className="mt-20 h-[250px] md:p-21
 
        bg-gradient-to-r from-blue-500  to-purple-500"
-       
       >
         <div className="max-w-7xl mx-auto  ">
           <div
@@ -14,16 +13,20 @@ const Rating = () => {
           text-[#FFFFFF] "
           >
             <div>
-              <h1 className="font-extrabold text-4xl">50K+</h1>
-              <p className="font-medium text-2xl">Active Users</p>
+              <h1 className="font-extrabold text-4xl cursor-pointer">50K+</h1>
+              <p className="font-medium text-2xl cursor-pointer">
+                Active Users
+              </p>
             </div>
             <div>
-              <h1 className="font-extrabold text-4xl">200+</h1>
-              <p className="font-medium text-2xl">Premium Tools</p>
+              <h1 className="font-extrabold text-4xl cursor-pointer">200+</h1>
+              <p className="font-medium text-2xl cursor-pointer">
+                Premium Tools
+              </p>
             </div>
             <div>
-              <h1 className="font-extrabold text-4xl">4.9+</h1>
-              <p className="font-medium text-2xl">Rating</p>
+              <h1 className="font-extrabold text-4xl cursor-pointer">4.9+</h1>
+              <p className="font-medium text-2xl cursor-pointer">Rating</p>
             </div>
           </div>
         </div>
