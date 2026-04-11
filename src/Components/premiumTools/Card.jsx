@@ -5,9 +5,8 @@ import SingleCard from '../Ui/SingleCard';
 
 const Card = ({ AppsData, setSingleCard, singleCard }) => {
   return (
-    <div className="grid sm:grid-cols-1 justify-center  md:grid-cols-3 gap-7">
+    <div className="max-w-7xl mx-auto  mx-auto grid  justify-center gap-7  sm:grid-cols-1  md:grid-cols-2 lg:grid-cols-3 ">
       {AppsData?.map((AppData) => {
-      
         return (
           <SingleCard
             singleCard={singleCard}

@@ -8,6 +8,8 @@ import Cards from "./Components/premiumTools/Cards";
 import WorkSection from "./Components/Your Work/WorkSection";
 import Degitools from "./Components/premiumTools/Degitools";
 import { ToastContainer } from "react-toastify";
+import ThreeStep from "./Components/ThreeStep/ThreeStep";
+import TransparentPricing from "./Components/Transparent Pricing/TransparentPricing";
 
 const fetchData = async () => {
   const res = await fetch("/data.json");
@@ -28,6 +30,8 @@ function App() {
         <Cards fetchPromise={fetchPromise} />
       </Suspense>
 
+      <ThreeStep/>
+      <TransparentPricing/>
       <WorkSection />
       <Footer />
 
