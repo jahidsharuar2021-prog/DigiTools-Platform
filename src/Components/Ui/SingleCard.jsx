@@ -1,14 +1,13 @@
 import React, { useState } from 'react';
 
-const SingleCard = ({ AppData }) => {
-
-const [isSelected, setSelected] = useState(false);
-
-
+const SingleCard = ({ AppData, setSingleCard, singleCard }) => {
+  const [isSelected, setSelected] = useState(false);
+  console.log(AppData);
 
   const evenHandler = () => {
     setSelected(true);
     alert(`${AppData.name} card is selected`);
+    setSingleCard([...singleCard,AppData]);
   };
 
   return (

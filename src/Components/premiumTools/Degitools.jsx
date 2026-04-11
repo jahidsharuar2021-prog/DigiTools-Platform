@@ -4,6 +4,8 @@ import Card from "./card";
 
 const Degitools = ({ AppsData }) => {
   const [selectedType, isSelectedType] = useState("Products");
+  const [singleCard,setSingleCard]=useState([]);
+  console.log(singleCard);
 
   return (
     <div>
@@ -35,9 +37,13 @@ const Degitools = ({ AppsData }) => {
         </div>
       </div>
       {selectedType === "Cart" ? (
-        <SelectedCard />
+        <SelectedCard singleCard={singleCard} setSingleCard={setSingleCard} />
       ) : (
-        <Card AppsData={AppsData} />
+        <Card
+          AppsData={AppsData}
+          singleCard={singleCard}
+          setSingleCard={setSingleCard}
+        />
       )}
     </div>
   );
