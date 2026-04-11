@@ -21,8 +21,6 @@ function App() {
       <Navbar />
       <Hero />
       <Rating />
-      <Degitools />
-
       <Suspense
         fallback={<span className="loading loading-dots loading-md"></span>}
       >

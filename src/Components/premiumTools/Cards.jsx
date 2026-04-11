@@ -1,15 +1,13 @@
 import React, { use } from 'react';
-import Card from './card';
+import Degitools from './Degitools';
 
-const Cards = ({ fetchPromise,index }) => {
+
+const Cards = ({ fetchPromise }) => {
   const AppsData = use(fetchPromise);
 
   return (
     <>
-      <Card AppsData={AppsData} key={index}  />
-
-
-      
+      <Degitools AppsData={AppsData} />
     </>
   );
 };

@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import SelectedCard from "../SelectedCard/SelectedCard";
+import Card from "./card";
 
-const Degitools = () => {
-  
+const Degitools = ({ AppsData }) => {
   const [selectedType, isSelectedType] = useState("Products");
 
   return (
@@ -34,7 +34,11 @@ const Degitools = () => {
           </div>
         </div>
       </div>
-      {selectedType === "Cart" ? <SelectedCard /> : ""}
+      {selectedType === "Cart" ? (
+        <SelectedCard />
+      ) : (
+        <Card AppsData={AppsData} />
+      )}
     </div>
   );
 };
